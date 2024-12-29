@@ -1176,7 +1176,7 @@ void x_push_node(Con *con) {
         fake_absolute_configure_notify(con);
     }
 
-    set_hidden_state(con);
+    // set_hidden_state(con);
     set_maximized_state(con);
 
     /* Handle all children and floating windows of this node. We recurse
